@@ -1,0 +1,31 @@
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+.cont-nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer-copyright {
+  font-size: 0.75rem;
+}
+.footer-nav {
+  display: flex;
+  gap: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.footer-nav a {
+  text-decoration: none;
+  color: #2c2d42;
+}
+.footer-logo {
+  width: 50px;
+}
+.footer-nav a:hover {
+  color: #8c8d9c;
+}
