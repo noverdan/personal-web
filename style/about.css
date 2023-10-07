@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Outfit";
+  font-size: 16px;
+  overflow-x: hidden;
+  color: #2c2d42;
+}
+.bg-pattern {
+  width: 34%;
+}
+body > hr {
+  margin: 0 70px;
+}
+
+/* ==============================
+================================= */
+/* Content */
+.container {
+  margin: 0 70px;
+}
+
+/* ==============================
+================================= */
+/* Events Efek  */
+
+/* ==============================
+================================= */
+/* Responsive*/
+
+/*Tab < 768px */
+@media only screen and (max-width: 768px) {
+  .bg-pattern {
+    width: 50%;
+  }
+}
+
+/*Phone < 576px */
+@media only screen and (max-width: 576px) {
+  .bg-pattern {
+    width: 65%;
+  }
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .ham-bar {
+    display: block;
+  }
+}
