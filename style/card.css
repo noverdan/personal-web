@@ -1,0 +1,18 @@
+.card {
+  border: 1.5px #2c2d42 solid;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 2px 2px 0 #2c2d42;
+  transition: all 0.1s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  transform: translateX(-6px);
+  box-shadow: 5px 5px 0 #2c2d42;
+}
+.card:active {
+  transform: translateY(0);
+  transform: translateX(0);
+  box-shadow: 0px 0px 0 #2c2d42;
+}

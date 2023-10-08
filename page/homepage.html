@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galang Arsandy - Personal Web</title>
+    <link rel="stylesheet" href="/style/homepage.css">
+    <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="/style/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <img class="bg bg-pattern" src="/assets/bg-pattern.svg" style="z-index: -1; position: absolute; right: 0; top: 0;" alt="">
+    <img class="bg" src="/assets/bg-bloob.svg" alt="" style="position: absolute; z-index: -1; bottom: 0; left: 0; width: 50%;">
+    <img class="bg" src="/assets/bg-text.svg" alt="" style="position: absolute; z-index: -1; right: 0; bottom: 0;" width="56%">
+
+    <header class="navbar" >
+        <div class="navbar-logo">
+            <img src="/assets/logo-black.svg" alt="">
+        </div>
+        <nav class="navbar-menu">
+            <ul class="navv">
+                <li>
+                    <a href="homepage.html" >Homepage</a>
+                    <hr class="nav-active">
+                </li>
+                <li>
+                    <a href="about.html">About me</a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                    <hr>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <hr>
+                </li>
+            </ul>
+        </nav>
+        <div class="navbar-social">
+            <a href="https://www.instagram.com/verdangalang/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/galangarsandy"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/galangarsandy"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/noverdan"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <div class="ham-bar">
+            <input id="checkbox2" type="checkbox">
+            <label class="toggle toggle2" for="checkbox2">
+                <div id="bar4" class="bars"></div>
+                <div id="bar5" class="bars"></div>
+                <div id="bar6" class="bars"></div>
+            </label>
+        </div>
+    </header>
+    <script src="/script/navbar.js"></script>
+
+    <main class="container-main" >
+        <div class="grid-item description">
+            <p class="greeting">Hey There,</p>
+            <p class="name">I am Galang Arsandy</p>
+            <p class="introduction">I am Computer and Tech Enthusiast.</p>
+            <p class="doing">Currently, I am focusing on studying full stack web development, Apart from that, i am also studying mobile development, machine learning, and graphic design.</p>
+            <button class="btn" id="btn-about-more">
+                More about me
+            </button>
+        </div>
+        <div class="grid-item graphic">
+            <img src="/assets/hero-img.svg" alt="">
+        </div>
+        <div class="grid-item project">
+            <p class="project-head">My Project.</p>
+            <div class="project-container">
+                <div class="card project-items project1">
+                    <p>Armossecond Thrifting Online Shop</p>
+                    <img src="/assets/android-img.svg" alt="">
+                    <div class="feature-cont">
+                        <div class="project-feature">Gradle</div>
+                        <div class="project-feature">Java</div>
+                    </div>
+                </div>
+                <div class="card project-items project2">
+                    <p>Comment sentiment with naive bayes</p>
+                    <img src="/assets/website-img.svg" alt="">
+                    <div class="feature-cont">
+                        <div class="project-feature">Sklearn</div>
+                        <div class="project-feature">Streamlit</div>
+                        <div class="project-feature">Python</div>
+                    </div>
+                </div>
+                <div class="card project-items project3">
+                    <p>Cinema ticket reservation application</p>
+                    <img src="/assets/desktop-img.svg" alt="">
+                    <div class="feature-cont">
+                        <div class="project-feature">Java</div>  
+                    </div>
+            </div>
+            </div>
+            <a href="/page/projects.html" style="text-decoration: none; color: #2c2d42;"><p class="more"><u>View More</u></p></a>
+        </div>
+    </main>
+</body>
+</html>
