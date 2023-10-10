@@ -1,6 +1,7 @@
 /* Footer */
 footer {
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 30px 70px;
@@ -33,5 +34,8 @@ footer {
 @media only screen and (max-width: 576px) {
   footer {
     padding: 30px 20px;
+  }
+  .footer-logo {
+    display: none;
   }
 }
