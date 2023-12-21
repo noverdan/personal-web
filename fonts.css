@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Outfit-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/OutfitRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Outfit-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/OutfitBold.woff") format("woff");
+}
